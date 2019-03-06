@@ -85,8 +85,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',   # 数据库引擎
         'NAME': 'alert_info',  # 数据库名，先前创建的
         'USER': 'root',     # 用户名，可以自己创建用户
-        'PASSWORD': 'Jingle@100',  # 密码
-        'HOST': '119.28.111.211',  # mysql服务所在的主机ip
+        'PASSWORD': '123456',  # 密码
+        'HOST': '10.21.252.65',  # mysql服务所在的主机ip
         'PORT': '3306',         # mysql服务端口
 
 
@@ -137,10 +137,10 @@ STATICFILES_DIRS = [
 ]
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.exmail.com'
-EMAIL_PORT = 465
-EMAIL_HOST_USER = 'yuezhen.chen@garena.cn'
-EMAIL_HOST_PASSWORD = 'wASVoiWUYdk3SoTM'
+EMAIL_HOST = 'smtp.sina.com'
+EMAIL_PORT = 25
+EMAIL_HOST_USER = 'wthtest@sina.com'
+EMAIL_HOST_PASSWORD = 'test1234'
 
 #注册有效期天数
 CONFIRM_DAYS = 7

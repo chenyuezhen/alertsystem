@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+/untitled1/settings.py
+/untitled1/send_mail.py
+/untitled1/manage.py
+/untitled1/db.sqlite3
+/untitled1/login/migrations/
